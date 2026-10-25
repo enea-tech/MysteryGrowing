@@ -1,0 +1,38 @@
+{
+  "id": "./index.html",
+  "name": "GROW 420 — Street Cult Grow Journal",
+  "short_name": "GROW 420",
+  "description": "Grow journal professionale con diagnosi, tools, strains e community.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "background_color": "#050505",
+  "theme_color": "#050505",
+  "orientation": "portrait",
+  "lang": "it",
+  "dir": "ltr",
+  "icons": [
+    { "src": "assets/icon-72.png",  "sizes": "72x72",   "type": "image/png", "purpose": "maskable any" },
+    { "src": "assets/icon-96.png",  "sizes": "96x96",   "type": "image/png", "purpose": "maskable any" },
+    { "src": "assets/icon-128.png", "sizes": "128x128", "type": "image/png", "purpose": "maskable any" },
+    { "src": "assets/icon-144.png", "sizes": "144x144", "type": "image/png", "purpose": "maskable any" },
+    { "src": "assets/icon-152.png", "sizes": "152x152", "type": "image/png", "purpose": "maskable any" },
+    { "src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable any" },
+    { "src": "assets/icon-384.png", "sizes": "384x384", "type": "image/png", "purpose": "maskable any" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable any" }
+  ],
+  "categories": ["lifestyle", "utilities", "productivity"],
+  "screenshots": [
+    { "src": "assets/screenshot-1.png", "sizes": "390x844",  "type": "image/png", "form_factor": "narrow" },
+    { "src": "assets/screenshot-2.png", "sizes": "1280x720", "type": "image/png", "form_factor": "wide" }
+  ],
+  "shortcuts": [
+    { "name": "Journal",    "short_name": "Journal",    "description": "Le tue piante",       "url": "./index.html#journal",   "icons": [{ "src": "assets/icon-96.png", "sizes": "96x96" }] },
+    { "name": "Diagnosi",   "short_name": "Diagnosi",   "description": "Motore diagnostico",  "url": "./index.html#diagnosis", "icons": [{ "src": "assets/icon-96.png", "sizes": "96x96" }] },
+    { "name": "Tools",      "short_name": "Tools",      "description": "Calcolatori",         "url": "./index.html#tools",     "icons": [{ "src": "assets/icon-96.png", "sizes": "96x96" }] },
+    { "name": "Promemoria", "short_name": "Promemoria", "description": "Cosa fare oggi",      "url": "./index.html#reminders", "icons": [{ "src": "assets/icon-96.png", "sizes": "96x96" }] }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
